@@ -1,0 +1,60 @@
+a{
+	color:#00549D;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+.clear:after{ 
+	content:".";
+	display:block; 
+	height:0; 
+	visibility:hidden; 
+	clear:both;
+}
+	
+.clear{
+	zoom:1; 
+	clear:both;
+}
+
+#thumbs{
+	display:block;
+}
+
+#attachList{
+	width:510px;
+	padding-top:5px;
+}
+
+.attachItem{
+	width:auto;
+	height:auto;
+	float:left;
+	padding:5px;
+	margin-right:10px;
+	margin-bottom:5px;
+	background:#E6ECF5;
+}
+
+.attachItem .left{
+	float:left;
+	display:inline;
+}
+
+.attachItem .right{
+	float:right;
+	display:inline;
+}
+
+.attachItem .right a{
+	display:block;
+	color: red;
+	width:16px;
+	height:16px;
+	margin-left: 10px;
+}
+
+
+
